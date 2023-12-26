@@ -29,9 +29,10 @@ defaults:
 jobs:
   install:
     runs-on: node:18.19.0
-    name: Install Packages
-    run:
-      cd themes/bridget/ && npm install
+    steps:
+      - name: Install Packages
+        run:
+          cd themes/bridget/ && npm install
   # Build job
   build:
     runs-on: ubuntu-latest
