@@ -1,7 +1,7 @@
 # timeout
 timeout = "1200s"
 # your website url
-baseURL = 'https://hugo-bridget-start.vercel.app/'
+baseURL = 'https://oulh.github.io/hugo-bridget-start/'
 # website title
 title = 'Bridget'
 theme = 'bridget'
