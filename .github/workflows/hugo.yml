@@ -37,7 +37,7 @@ jobs:
       - name: Install Packages
         with:
           node-version: '18'
-        run:
+        run: |
           cd themes/bridget
           npm install
       - name: Install Hugo CLI
